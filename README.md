@@ -75,6 +75,7 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 - The training data is quite small for this problem. As such, additional images can be generated using GAN models to enrish the dataset.
 - Futher data augmentation can be done to improve the accuracy
 - Noted that some labels are wrongly assigned, image-by-image review can be carried out to clean the dataset
+- Other hyperparameters such as optimizer, learning rate, batch size can be tuned to improve the accuracy
 ## References
 https://arxiv.org/pdf/1505.04597.pdf
 
