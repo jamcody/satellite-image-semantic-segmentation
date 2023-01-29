@@ -66,13 +66,13 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 
 ![image](https://user-images.githubusercontent.com/85484281/215321819-2597c9ab-45e9-4759-810e-ee933b1e5b37.png)
 
-- By trying the model on different epochs, Deeplabv3+ achieves the best accuracy at 72.65% dice score but PSPNet got a more stable accuracy as shown below:
+- By trying the model on different epochs, Deeplabv3+ achieves the best accuracy at 72.65% dice score but PSPNet got a more stable result as shown below:
 
 ![image](https://user-images.githubusercontent.com/85484281/215322535-170cc96d-303b-46fb-be82-d0021db42350.png)
 
 **2. Issues to address**
 
-- The training data is quite small for this problem. As such, additional images can be generated using GAN models to enrish the dataset.
+- The training data is quite small for this problem. As such, additional images can be generated using GAN models to enrich the dataset.
 - Futher data augmentation can be done to improve the accuracy
 - Noted that some labels are wrongly assigned, image-by-image review can be carried out to clean the dataset
 - Other hyperparameters such as optimizer, learning rate, batch size can be tuned to improve the accuracy
