@@ -51,7 +51,7 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 
 ![image](https://user-images.githubusercontent.com/85484281/215320480-0f5d9ea5-dc40-42d4-a16a-a57ae4a2aeb4.png)
 
-**2. PSPNet** shook the semantic segmentation field by winning the ImageNet Scene Parsing Challenge 2016. PSPNet is designed to mainly address the context confusion. For example, the boat is predicted to be a car because the shape is similar. If the context i.e. water is considered, this will not happen. As such, in PSPNet architecture, many sub-regions (local info) & full-region (global info) of the last cnn layer are used to extract features. They are, then, concatenated to construct the final feature representation.
+**2. PSPNet** shook the semantic segmentation field by winning the ImageNet Scene Parsing Challenge 2016. PSPNet is designed to mainly address the context confusion. For example, the small yacht can be predicted to be a car because the shape from far away is similar. If the context i.e. water is considered, this will not happen. As such, in PSPNet architecture, many sub-regions (local info) & full-region (global info) of the last cnn layer are used to extract features. They are, then, concatenated to construct the final feature representation.
 
 ![image](https://user-images.githubusercontent.com/85484281/215271892-f9784360-9a77-4e63-9d5c-6a7a9eff5714.png)
 
