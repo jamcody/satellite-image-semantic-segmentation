@@ -47,7 +47,7 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 
 **1. Unet** is one of the most widely used network for semantic segmentation problem (upgraded version of FCN). The network basically 
 - encodes: extract features from the images & reduce image size to save computation time
-- decodes: reconstruct the masks using 1) extracted features and 2) information lost during encoding stage (using skip connections)
+- decodes: reconstruct the masks using 1) extracted features and 2) information lost during encoding stage (using skip connections - grey arrows in the picture)
 
 ![image](https://user-images.githubusercontent.com/85484281/215320480-0f5d9ea5-dc40-42d4-a16a-a57ae4a2aeb4.png)
 
