@@ -64,7 +64,7 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 
 - By adding additional 84 images to fix the imbalanced labels, the accuracy of Deeplabv3+ drops by 0.53% - 2.37%. Therefore, these 84 images are excluded.
 
-![image](https://user-images.githubusercontent.com/85484281/215321819-2597c9ab-45e9-4759-810e-ee933b1e5b37.png)
+![image](https://user-images.githubusercontent.com/85484281/216014194-5c31d9e3-54fa-4e86-9bd1-77cdb1819467.png)
 
 - By trying the model on different epochs, Deeplabv3+ achieves the best accuracy at 72.65% dice score but PSPNet got a more stable result as shown below:
 
