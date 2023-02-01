@@ -5,7 +5,7 @@ The task is to segment the objects (26 labels) in the satellite images. The data
 
 ![image](https://user-images.githubusercontent.com/85484281/213866548-7f770301-9f7a-466f-bfee-c6e3004aee18.png)
 ## Pre-processing and exploration
-After the exploration, we decided to:
+After the exploration, I decided to:
 - oversample by creating additional 84 images to address the imbalanced labels (spliting the images containing under-represented labels into 4)
 
 ![image](https://user-images.githubusercontent.com/85484281/213866790-ceee17e1-1b0a-439f-bb58-a5a88237b0a7.png)
