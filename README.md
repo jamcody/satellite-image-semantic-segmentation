@@ -70,7 +70,7 @@ In this project, I used Resnet101 pre-trained on ImageNet as backbone to help th
 
 ![image](https://user-images.githubusercontent.com/85484281/215322535-170cc96d-303b-46fb-be82-d0021db42350.png)
 
-**2. Issues to address**
+**2. Issues to be addressed**
 
 - The training data is quite small for this problem. As such, additional images can be generated using GAN models to enrich the dataset.
 - Futher data augmentation can be done to improve the accuracy
