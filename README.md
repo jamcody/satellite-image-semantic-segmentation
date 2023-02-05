@@ -1,7 +1,7 @@
 # SATELLITE IMAGE SEMANTIC SEGMENTATION
 This project is a part of a Kaggle cometition in Deep Learning course at CentraleSupelec
 ## Project description
-The task is to segment the objects (26 labels) in the satellite images. The dataset comprises 374 images (3x3000x4000) of residential neighborhoods in Houston after the hurricane Harvey. 299 out of the total images have corresponding masks (images where each pixel is assigned 1 out of 26 values corresponding to 26 labels). These are used for training deep learning models. The masks for the remaining 75 images are to be predicted. U-net, PSPNet & Deeplabv3 are employed and evaluated using dice score. Deeplabv3 outperformed with 72.65% accuracy. A snapshot of the images and provided masks are as followed:
+The task is to segment the objects (26 labels) in the satellite images. The dataset comprises 374 images (3x3000x4000) of residential neighborhoods in Houston after the hurricane Harvey. 299 out of the total images have corresponding masks (images where each pixel is assigned 1 out of 26 values corresponding to 26 labels). These are used for training deep learning models. The masks for the remaining 75 images are to be predicted. U-net, PSPNet & Deeplabv3+ are employed and evaluated using dice score. Deeplabv3 outperformed with 72.65% accuracy. A snapshot of the images and provided masks are as followed:
 
 ![image](https://user-images.githubusercontent.com/85484281/213866548-7f770301-9f7a-466f-bfee-c6e3004aee18.png)
 ## Pre-processing and exploration
